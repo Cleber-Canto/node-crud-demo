@@ -20,5 +20,6 @@ jobs:
       - name: Instalar dependências
         run: npm install
 
-      - name: Rodar aplicação (opcional)
-        run: npm run start
+      - name: Rodar CI
+        run: npm run ci
+
